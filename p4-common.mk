@@ -61,7 +61,8 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_PROPERTY_OVERRIDES := \
     wifi.interface=wlan0 \
-    wifi.supplicant_scan_interval=15
+    wifi.supplicant_scan_interval=90 \
+    ro.sf.lcd_density=160
 
 PRODUCT_PACKAGES += \
         libinvensense_mpl
