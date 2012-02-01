@@ -18,6 +18,7 @@
 # by BoardConfigVendor.mk
 BOARD_USES_GENERIC_AUDIO := false
 USE_CAMERA_STUB := false
+TARGET_OTA_ASSERT_SKIP := true
 
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 
