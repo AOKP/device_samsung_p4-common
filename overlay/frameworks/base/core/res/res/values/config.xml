@@ -27,12 +27,14 @@
     <bool name="config_showNavigationBar">false</bool>
 
     <bool name="config_batterySdCardAccessibility">true</bool>
+    
+    <bool name="config_forceDisableHardwareKeyboard">true</bool>
 
     <bool name="config_sf_limitedAlpha">true</bool>
  
-   <bool name="config_allowAllRotations">true</bool>
+    <bool name="config_allowAllRotations">true</bool>
 
-   <bool name="config_sf_slowBlur">true</bool>
+    <bool name="config_sf_slowBlur">true</bool>
 
     <bool name="config_automatic_brightness_available">true</bool>
 
