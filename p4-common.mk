@@ -64,6 +64,9 @@ PRODUCT_PROPERTY_OVERRIDES := \
     wifi.supplicant_scan_interval=90 \
     ro.sf.lcd_density=160
 
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/wifi/bcm4330_aps.bin:system/etc/wifi/bcm4330_apsta.bin
+
 BOARD_WLAN_DEVICE_REV := bcm4330_b1
 
 $(call inherit-product-if-exists, hardware/broadcom/wlan/bcmdhd/firmware/bcm4330/device-bcm.mk)
